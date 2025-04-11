@@ -1,47 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ribeye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ribeye&family=Ribeye+Marrow&display=swap');
+
 @import "tailwindcss";
 
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
+@theme {
+  --color-butter: #FFEDAB;
+  --color-cherry: #75070C;
+  --color-olive: #4F6815;
+  --color-oat: #F0E6DA;
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
+  --font-ribeye: "Ribeye", sans-serif;
+  --font-ribeye-marrow: "Ribeye Marrow", sans-serif;
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  --font-menu-settings: "Ribeye", sans-serif, text-2xl text-center;
 }
